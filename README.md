@@ -2,7 +2,7 @@
 title: "README & MICRODOC"
 layout: default
 ---
-# Documentation de l'équipe UniWIP
+# Documentation de 
 
 Table de contenu:
 - [Documentation de l'équipe UniWIP](#documentation-de-léquipe-uniwip)
