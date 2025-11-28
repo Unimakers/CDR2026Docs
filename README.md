@@ -2,10 +2,10 @@
 title: "README & MICRODOC"
 layout: default
 ---
-# Documentation de 
+# Documentation de l'association UniMakers pour la CDR2026
 
 Table de contenu:
-- [Documentation de l'équipe UniWIP](#documentation-de-léquipe-uniwip)
+- [Documentation de l'association UniMakers pour la CDR2026](#documentation-de-lassociation-unimakers-pour-la-cdr2026)
   - [Comment créer une page ?](#comment-créer-une-page-)
   - [Comment afficher un modèle 3D](#comment-afficher-un-modèle-3d)
 

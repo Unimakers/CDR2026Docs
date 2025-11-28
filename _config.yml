@@ -1,12 +1,12 @@
-title: UniWIP CDR 2025
-description: Documentation de l'équipe UniWIP pour la CDR 2025
+title: UniMakers CDR 2026
+description: Documentation de l'association UniMakers pour la CDR 2026
 theme: just-the-docs
 color_scheme: unimakers
 
-url: https://unimakers.fr/UniWip-Docs-CDR2025/
+url: https://unimakers.fr/CDR2026Docs/
 
 nav_external_links:
   - title: <- Return to website
     url: https://unimakers.fr
 aux_links:
-  Les Dépots de la team UniWIP: https://github.com/orgs/Unimakers/teams/uniwip/repositories
+  GitHub d'UniMakers: https://github.com/UniMakers
