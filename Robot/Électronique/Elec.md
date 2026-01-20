@@ -55,13 +55,37 @@ Ce choix d’architecture permet d’obtenir un système plus compact, plus fiab
 
 ## 2. Présentation générale
 
-  ### a. Description général
-  - taille
-  - liste des capacité
+### a. Description générale
 
-  ### b. Contraintes spécifiques à la compétition
-  - Environnement (vibration,taille)
-  - Temps de fonctionnement
+La carte électronique présente un format rectangulaire de **98 mm × 171 mm**. Ce gabarit a été défini afin de s’intégrer durablement dans l’architecture mécanique du robot, prévue pour être conservée sur plusieurs saisons. La carte est conçue en **double couche**, permettant un compromis entre compacité, simplicité de routage et maîtrise des coûts de fabrication.
+
+Elle est installée **verticalement dans le sens de la longueur** au sein du robot. Cette orientation facilite l’intégration mécanique, l’accessibilité aux connecteurs ainsi que le refroidissement, la carte étant directement ventilée.
+
+D’un point de vue fonctionnel, la carte centralise l’ensemble des capacités nécessaires au fonctionnement du robot. Elle assure notamment :
+- le pilotage de **6 moteurs pas à pas**,
+- la commande de **32 servomoteurs**,
+- la gestion de **16 pompes**,
+- l’interface avec un **LIDAR**,
+- la communication et la programmation via des **ports USB** directement reliés aux microcontrôleurs,
+- la possibilité d’intégrer un **module XBee optionnel** pour la communication sans fil,
+- la gestion d’un **écran tactile** servant d’interface principale,
+- la présence de **8 boutons binaires** permettant le paramétrage et le contrôle du robot en cas de défaillance de l’écran.
+
+La carte est également conçue pour rester évolutive. Elle dispose de connecteurs permettant l’ajout :
+- d’une carte indépendante communiquant en **UART**,
+- de cartes d’extension via le bus **I²C**.
+
+Enfin, la carte intègre la **gestion complète de la puissance**, incluant la régulation, la distribution et les protections électriques nécessaires au bon fonctionnement des différents sous-systèmes du robot.
+
+### b. Contraintes spécifiques à la compétition
+
+L’utilisation en Coupe de France de Robotique impose des contraintes spécifiques liées à l’environnement et au déroulement des matchs. Le robot étant mobile, la carte est soumise à des **vibrations régulières** ainsi qu’à des **chocs ponctuels**, notamment lors de contacts avec les bordures du terrain. Ces contraintes ont été prises en compte dès la conception mécanique et électronique afin d’assurer la fiabilité de l’ensemble.
+
+La carte est installée dans une zone ventilée du robot, éloignée des moteurs, ce qui limite son exposition aux perturbations électromagnétiques, à la poussière et aux projections. Aucune contrainte directe du règlement ne s’applique à la taille de la carte, celle-ci étant uniquement limitée par l’encombrement global du robot.
+
+En termes de fonctionnement, un match de compétition dure **100 secondes**, mais la carte doit rester opérationnelle bien au-delà de cette durée. En pratique, le robot est allumé pendant toute la phase de préparation, pouvant atteindre **jusqu’à 10 minutes**, ainsi que lors des nombreuses phases de test.
+
+Une attention particulière est portée à la **gestion de la consommation électrique**. La présence de nombreux servomoteurs et pompes implique des courants importants, susceptibles de provoquer des chutes de tension lors d’activations simultanées. La carte est donc conçue pour permettre une gestion maîtrisée de ces charges, tant au niveau matériel que logiciel, afin de garantir un fonctionnement stable tout au long des matchs et des essais.
 
 
 ## La carte
