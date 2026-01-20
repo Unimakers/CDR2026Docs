@@ -58,7 +58,9 @@ jobs:
           docker run --rm jekyll/jekyll:4 id
           docker rm -f jekyll || true
           docker run --name jekyll -v .:/srv/jekyll jekyll/jekyll:4 jekyll build --destination /tmp/_site
+          echo "Step RM _site"
           rm -rf _site
+          echo "STEP CP site"
           docker cp jekyll:/tmp/_site _site
           ls -al _site
 
