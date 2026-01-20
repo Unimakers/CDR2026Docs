@@ -65,7 +65,7 @@ Ce choix d’architecture permet d’obtenir un système plus compact, plus fiab
 
 
 ## La carte
-<model-viewer alt="carte V1" src="image_elec/model_carte.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<model-viewer alt="carte V1" src="image/model_carte.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
 <kicanvas-embed controls="full">
 <kicanvas-source src="image/doom v1.kicad_sch"></kicavas-source>
 <kicanvas-source src="imahe/domm v1.kicad_pcb"></kicavas-source>
