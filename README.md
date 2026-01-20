@@ -125,7 +125,7 @@ Dans votre code markdown rajoutez:
 Dans votre code markdown rajoutez:
 ```md
 <kicanvas-embed controls="full">
-<kicanvas-source src="chemin/vers/fichier.kicad_sch"></kicavas-source>
-<kicanvas-source src="chemin/vers/fichier.kicad_pcb"></kicavas-source>
+<kicanvas-source src="chemin/vers/fichier.kicad_sch"></kicanvas-source>
+<kicanvas-source src="chemin/vers/fichier.kicad_pcb"></kicanvas-source>
 </kicanvas-embed>
 ```
