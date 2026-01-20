@@ -29,9 +29,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        lfs: false
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: 'true' # Optional; should be the default
+      
+      - name: Checkout lfs
+        run: |
+          git lfs install --local
+          AUTH=$(git config --local http.${{ github.server_url }}/.extraheader)
+          git config --local --unset http.${{ github.server_url }}/.extraheader
+          git config --local http.${{ github.server_url }}/${{ github.repository }}.git/info/lfs/objects/batch.extraheader "$AUTH"
+          git lfs pull
+      - name: sudo apt-get install -y tree
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tree
+
+      - name: tree
+        run: |
+          tree -Lps 5
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -46,9 +62,12 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: tree _site
+        run: |
+          tree -Lps 5 _site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
 
   # Deployment job
   deploy:
