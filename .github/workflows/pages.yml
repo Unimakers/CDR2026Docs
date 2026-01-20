@@ -30,16 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-        with: 
-          lfs: false
-      - name: sudo apt-get install -y tree
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y tree
-      - name: tree
-        run: |
-          tree -Lps 3
+        uses: actions/checkout@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -49,31 +40,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: jekyll build
-        run: |
-          # Avoid: Error: Permission denied @ dir_s_mkdir - /srv/jekyll/_site
-          pwd
-          ls -al
-          id
-          sudo chmod 666 Gemfile.lock
-          ls -al
-          echo "Docker steps"
-          docker run --rm jekyll/jekyll:4 id
-          docker rm -f jekyll || true
-          docker run --name jekyll -v .:/srv/jekyll jekyll/jekyll:4 jekyll build --destination /tmp/_site
-          echo "Step RM _site"
-          rm -rf _site
-          echo "STEP CP site"
-          docker cp jekyll:/tmp/_site _site
-          ls -al _site
-
-      - name: tree _site
-        run: |
-          tree -Lps 3 _site
-      - name: actions/upload-pages-artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: _site/
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
