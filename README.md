@@ -97,6 +97,8 @@ La pince du robot, nécessaire pour attraper.....
 
 ## Comment afficher un modèle 3D
 
+Assurez vous d'avoir défini `layout: technical` au lieu de `layout: default`.
+
 Dans votre code markdown rajoutez:
 ```md
 <model-viewer alt="Texte de déscription du modèle 3D" src="url / chemin du modèle 3D" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
@@ -106,3 +108,24 @@ Ou
 {%raw%}{{%include model3D.html alt="Texte de description du modèle 3D" model="url / chemin du modèle 3D"%}}{%endraw%}
 ``` 
 Le modèle 3D **doit** être en format GLTF / GLB.
+
+## Comment utiliser le visionneur KiCad
+
+Assurez vous d'avoir défini `layout: technical` au lieu de `layout: default`.
+
+- Si vous ne souhaitez que le schématique:
+
+Dans votre code markdown rajoutez:
+```md
+<kicanvas-embed src="chemin/vers/fichier.kicad_sch" controls="basic"></kicanvas-embed>
+```
+
+- Si vous souhaitez le schématique ET la PCB;
+
+Dans votre code markdown rajoutez:
+```md
+<kicanvas-embed controls="full">
+<kicanvas-source src="chemin/vers/fichier.kicad_sch"></kicavas-source>
+<kicanvas-source src="chemin/vers/fichier.kicad_pcb"></kicavas-source>
+</kicanvas-embed>
+```
