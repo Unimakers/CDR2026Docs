@@ -70,6 +70,7 @@ Ce choix d’architecture permet d’obtenir un système plus compact, plus fiab
 <kicanvas-source src="image/doom v1.kicad_sch"></kicavas-source>
 <kicanvas-source src="imahe/domm v1.kicad_pcb"></kicavas-source>
 </kicanvas-embed>
+
 ## 3. Architecture matérielle 
 
   ### a. Schéma fonctionnel (diagramme de blocs)
