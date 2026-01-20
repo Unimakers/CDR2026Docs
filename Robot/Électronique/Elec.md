@@ -89,7 +89,7 @@ Une attention particulière est portée à la **gestion de la consommation élec
 
 
 ## La carte
-<model-viewer alt="carte V1" src="https://github.com/Unimakers/CDR2026Docs/raw/refs/heads/main/Robot/%C3%89lectronique/image/model_carte.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<model-viewer alt="carte V1" src="./image/model_carte.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
 
 <kicanvas-embed controls="full">
 <kicanvas-source src="image/doom_v1.kicad_sch"></kicavas-source>
