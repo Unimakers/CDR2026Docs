@@ -55,9 +55,9 @@ jobs:
           pwd
           ls -al
           id
-          docker run --rm jekyll/jekyll:3 id
+          docker run --rm jekyll/jekyll:4 id
           docker rm -f jekyll || true
-          docker run --name jekyll -v .:/srv/jekyll jekyll/jekyll:3 jekyll build --destination /tmp/_site
+          docker run --name jekyll -v .:/srv/jekyll jekyll/jekyll:4 jekyll build --destination /tmp/_site
           rm -rf _site
           docker cp jekyll:/tmp/_site _site
           ls -al _site
