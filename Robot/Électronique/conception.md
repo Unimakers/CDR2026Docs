@@ -2,6 +2,7 @@
 title: "La conception de la carte"
 parent: Elec
 layout: technical
+hidden: true
 ---
 
 ## 5. Schéma électronique (doc a part conception)
