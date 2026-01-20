@@ -55,7 +55,7 @@ jobs:
           pwd
           ls -al
           id
-          sudo chown $USER:$USER Gemfile.lock
+          sudo chmod 666 Gemfile.lock
           ls -al
           echo "Docker steps"
           docker run --rm jekyll/jekyll:4 id
