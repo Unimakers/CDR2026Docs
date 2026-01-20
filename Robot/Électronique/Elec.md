@@ -93,7 +93,7 @@ Une attention particulière est portée à la **gestion de la consommation élec
 
 <kicanvas-embed controls="full">
 <kicanvas-source src="image/doom_v1.kicad_sch"></kicanvas-source>
-<kicanvas-source src="imahe/domm_v1.kicad_pcb"></kicanvas-source>
+<kicanvas-source src="image/doom_v1.kicad_pcb"></kicanvas-source>
 </kicanvas-embed>
 
 ## 3. Architecture matérielle 
