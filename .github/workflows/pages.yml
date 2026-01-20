@@ -55,6 +55,9 @@ jobs:
           pwd
           ls -al
           id
+          echo "RM Gemfile.lock"
+          rm Gemfile.lock
+          echo "Docker steps"
           docker run --rm jekyll/jekyll:4 id
           docker rm -f jekyll || true
           docker run --name jekyll -v .:/srv/jekyll jekyll/jekyll:4 jekyll build --destination /tmp/_site
