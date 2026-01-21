@@ -109,7 +109,7 @@ Une attention particulière est portée à la **gestion de la consommation élec
   - connecteurs 
 
 ## 4. La concption
-  - lien vers conception.md
+  - [./conception](./conception.html)
 
 ## 5. Caractéristiques techniques
 
