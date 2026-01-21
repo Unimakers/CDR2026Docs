@@ -91,7 +91,7 @@ Une attention particulière est portée à la **gestion de la consommation élec
 ## La carte
 <model-viewer alt="carte V1" style="width:80%; height:400px"  src="./image/model_carte.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
 
-## 3. La concption
+## 3. La conception
 Si vous souhaitez en apprendre plus la conception de la carte je vous invite à cliquer sur le lien suivant --> [vers conception](./conception.html)
   
 <kicanvas-embed controls="full">
