@@ -91,54 +91,72 @@ Une attention particulière est portée à la **gestion de la consommation élec
 ## La carte
 <model-viewer alt="carte V1" style="width:80%; height:400px"  src="./image/model_carte.glb" ar shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
 
+## 3. La concption
+Si vous souhaitez en apprendre plus la conception de la carte je vous invite à cliquer sur le lien suivant --> [vers conception](./conception.html)
+  
 <kicanvas-embed controls="full">
 <kicanvas-source src="image/doom_v1.kicad_sch"></kicanvas-source>
 <kicanvas-source src="image/doom_v1.kicad_pcb"></kicanvas-source>
 </kicanvas-embed>
+Utilisez shift+mollet, ctrl+mollet ou alt+mollet pour vous déplacez
+Un menu est également disponible a droite afin de choisir la couche ou l'opacité des éléments 
 
-## 3. Architecture matérielle 
+## 4. Caractéristiques techniques
 
-  ### a. Schéma fonctionnel (diagramme de blocs)
-  - shéma de quentin 
+### a. Tension et consommation
 
-  ### b. Description des sous-ensembles :
-  - Alimentation et convertisseurs
-  - Microcontrôleurs / logique de contrôle
-  - Interfaces de communication
-  - Capteurs / modules
-  - connecteurs 
+La carte est alimentée par une **batterie Li-ion de 24 V**, d’une capacité de **3,5 Ah** pour une énergie totale de **84 Wh**. La batterie est reliée à la carte via un **relais commandé par un bouton d’arrêt d’urgence (BAU)**, garantissant une coupure immédiate de l’alimentation du robot en cas de besoin.
 
-## 4. La concption
-  - [./conception](./conception.html)
+À partir de cette tension d’entrée, la carte génère les tensions nécessaires aux différents sous-ensembles du robot :
+- **12 V**, utilisé principalement pour l’alimentation des actionneurs,
+- **5 V**, destiné aux microcontrôleurs, aux servomoteurs, à certains périphériques et à la logique intermédiaire,
+- **3,3 V**, dédié  module d'extension et aux circuits de communication.
 
-## 5. Caractéristiques techniques
+Les actionneurs (moteurs pas à pas, servomoteurs et pompes) sont **alimentés directement par la carte**. Aucune protection active spécifique n’est intégrée au niveau de la puissance. La limitation des perturbations électriques repose principalement sur :
+- la présence de **condensateurs de découplage** afin de limiter les pics de courant,
+- des **diodes de protection** contre les retours de courant, notamment sur les charges inductives.
 
-  ### a. Tension et consomation (à calculer)
-  - Tension
-  - consomation(à calculer)
+La consommation électrique de la carte est évaluée de manière globale, en distinguant une consommation nominale et une consommation maximale théorique.
 
-  ### b. Interfaces de communication interne et externe
-  - UART
-  - I²C
-  - xbee
+**Hypothèses de calcul :**
+- Les servomoteurs utilisés sont des **FS5109M**, pouvant consommer des courants élevés lors des phases de démarrage ou de blocage.
+- Les moteurs pas à pas, servomoteurs et pompes ne sont pas tous activés simultanément à pleine charge.
+- Le pilotage logiciel limite volontairement l’activation concurrente des actionneurs afin d’éviter des pics de courant susceptibles de provoquer une chute de tension.
+- La consommation de la logique (microcontrôleurs, capteurs, communication) reste négligeable devant celle des actionneurs.
 
+Dans ces conditions :
+- la **consommation nominale** correspond à un scénario de match classique, avec une activation séquencée des actionneurs,
+- la **consommation maximale théorique** correspond à un cas défavorable où plusieurs actionneurs sont sollicités simultanément.
 
-## 6. Liste des composants et assemblage
+Ces valeurs sont utilisées comme base de dimensionnement de l’alimentation et de la stratégie de gestion de la puissance.
+
+### b. Interfaces de communication interne et externe
+
+La communication interne de la carte repose sur **deux liaisons UART point à point** :
+- une liaison entre le microcontrôleur principal et le microcontrôleur dédié aux capteurs,
+- une liaison entre le microcontrôleur principal et le microcontrôleur dédié à la gestion des moteurs et des actionneurs.
+
+Le microcontrôleur principal agit comme un **chef d’orchestre**, coordonnant l’ensemble des sous-systèmes, assurant la synchronisation des actions et la cohérence globale du fonctionnement du robot. Aucun débit spécifique n’est imposé à ces liaisons, celles-ci étant configurées en fonction des besoins du système.
+
+La carte expose principalement un **bus I²C** vers l’extérieur afin de permettre l’ajout de cartes d’extension ou de capteurs supplémentaires. Les adresses I²C sont configurables à l’aide de **jumpers à souder**, permettant d’éviter les conflits d’adressage et de conserver une architecture flexible.
+
+Un module de communication **XBee** peut également être ajouté de manière optionnelle via un connecteur dédié. Ce module est utilisé pour :
+- la transmission d’informations vers un éventuel centre de calcul,
+- le lancement du match (top départ),
+- le paramétrage du robot avant match.
+
+Le module XBee est entièrement **optionnel** et n’est pas critique pour le fonctionnement du robot en match. Son absence n’affecte pas le comportement nominal du système.
+
+## 5. Liste des composants et assemblage
   - lien vers assemblage.md
 
-## 7. Maintenance et dépannage
+## 6. Maintenance et dépannage
 - Problèmes connus
 - Remplacement de composants
 
 
-## 8. Historique des versions
+## 7. Historique des versions
 - Version de la carte
 - Modifications
 - Date
 - Responsable
-
-## 9. Annexes
-- Schémas complets
-- Datasheets importantes
-- Notes de calcul
-- Liens vers dépôts ou ressources
