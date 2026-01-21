@@ -1,5 +1,5 @@
 ---
-title: "électronique"
+title: "Électronique"
 layout: technical
 grand_parent: Pami ninja
 has_children: true
