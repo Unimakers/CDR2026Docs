@@ -6,15 +6,15 @@ nav_order: 0
 # La Coupe de France de Robotique
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-<img src="logo-1.png" width=400>
+<img src="logo-2.png" width=400>
 </div>
 
 ## Un événement unique
-La **Coupe de France de robotique** (ou CRD) est un événement qui réunit chaque année des centaines d'équipes venues de toute la France pour faire concourir leurs robots passifs qu'elles ont passé un an à créer ou à adapter afin de répondre le mieux à un règlement qui évolue chaque année autour d'un thème, cette année le thème était **"The show must go on"** le but promouvoir un concert, en construire les gradin et faire le show face à son rival.
+La **Coupe de France de robotique** (ou CRD) est un événement qui réunit chaque année des centaines d'équipes venues de toute la France pour faire concourir leurs robots passifs qu'elles ont passé un an à créer ou à adapter afin de répondre le mieux à un règlement qui évolue chaque année autour d'un thème, cette année le thème était **"Winter is comming"** le but est de faire des réserves pour l'hiver.
 
 Ces robots doivent être entièrement **autonomes** et capables de réaliser différentes actions sur une table de 3 mètres par 2 en un temps limité, généralement 100 secondes. Le but est de marquer le plus de points possible en accomplissants différents objectifs. 
 
-Chaque année nous avons donc droit à un nouveau visuel de la table ainsi qu'à de nouveau éléments de jeu cette année c'était **planche et conserve** et une petite **scène** pour les **PAMI** (voir la doc) 
+Chaque année nous avons donc droit à un nouveau visuel de la table ainsi qu'à de nouveau éléments de jeu cette année c'était **des planches jaune et bleu**, une petite **scène** pour les **PAMI** ainsi qu'une **réserve** pour le **PAMI Ninja** (voir la doc) 
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
 <img src="table.png" width=800>
@@ -34,7 +34,7 @@ Participer à la Coupe de France de robotique permet de relever un vrai défi, d
 
 Pour bien comprendre l'envergure du challenge, il faut se pencher plus en détail sur les règles.
 
-Eurobot 2025 impose un cadre technique, stratégique et logistique exigeant.
+Eurobot 2026 impose un cadre technique, stratégique et logistique exigeant.
 
 Chaque équipe doit concevoir un robot totalement autonome capable d’interagir avec des éléments du terrain dans un temps limité. Ses dimensions doivent être inférieures ou égales à 1200 mm en position repliée et inférieures ou égales à 1400 mm en position déployée. Toutes les normes de sécurité de base doivent être respectées, notamment en termes d’électricité.
 
