@@ -147,8 +147,6 @@ Un module de communication **XBee** peut également être ajouté de manière op
 
 Le module XBee est entièrement **optionnel** et n’est pas critique pour le fonctionnement du robot en match. Son absence n’affecte pas le comportement nominal du système.
 
-
-
 ## 5. Liste des composants et assemblage
   - lien vers assemblage.md
 
@@ -162,9 +160,3 @@ Le module XBee est entièrement **optionnel** et n’est pas critique pour le fo
 - Modifications
 - Date
 - Responsable
-
-## 8. Annexes
-- Schémas complets
-- Datasheets importantes
-- Notes de calcul
-- Liens vers dépôts ou ressources
