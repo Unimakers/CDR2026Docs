@@ -1,9 +1,8 @@
 ---
 title: "Base roulante"
 layout: technical
-grand_parent: Pami ninja
-parent: Mécanique
-has_children: false
+grand_parent: Pami_ninja
+parent: Meca
 ---
 
 # Section Mécanique : Base Roulante
