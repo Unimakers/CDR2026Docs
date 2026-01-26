@@ -1,6 +1,6 @@
 ---
 title: "Électronique"
 layout: technical
-grand_parent: Pami ninja
+parent: Pami Ninja
 has_children: true
 ---

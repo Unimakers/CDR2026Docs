@@ -1,6 +1,6 @@
 ---
 title: "Mécanique"
 layout: technical
-parent: Pami ninja
+parent: Pami Ninja
 has_children: true
 ---

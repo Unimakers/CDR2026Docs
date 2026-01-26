@@ -1,7 +1,7 @@
 ---
 title: "Base roulante"
 layout: technical
-grand_parent: Pami ninja
+grand_parent: Pami Ninja
 parent: Mécanique
 has_children: false
 ---
