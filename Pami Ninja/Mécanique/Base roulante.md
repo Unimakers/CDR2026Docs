@@ -23,7 +23,6 @@ Le squelette du robot repose sur des profilés en aluminium de $10 \times 10$ mm
 * **Robustesse :** L'aluminium offre une rigidité bien supérieure au plastique face aux collisions éventuelles.
 * **Maintenance :** Les faces en acrylique sont fixées via des **vis à tête carrée** glissées dans les rainures et maintenues par des écrous standards. 
 
-> [!TIP]
 > **Accessibilité :** Chaque face est démontable en dévissant simplement 8 écrous, permettant un accès complet à l'électronique interne en moins de 30 secondes sans fragiliser la structure porteuse.
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Programation"
-parent: Pami_ninja
+parent: "Pami_ninja"
 layout: technical
 ---
 

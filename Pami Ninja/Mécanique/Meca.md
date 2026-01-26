@@ -1,7 +1,7 @@
 ---
 title: "Mécanique"
 layout: technical
-parent: Pami_ninja
+parent: "Pami ninja"
 nav_order: 2
 has_children: true
 ---

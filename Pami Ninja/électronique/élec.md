@@ -1,7 +1,7 @@
 ---
 title: "Électronique"
 layout: technical
-parent: Pami_ninja
+parent: "Pami ninja"
 ---
 
 # Élec
