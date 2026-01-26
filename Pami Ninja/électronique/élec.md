@@ -1,8 +1,8 @@
 ---
 title: "Électronique"
 layout: technical
-parent: "Pami ninja"
-nav order: 2
+parent: "Pami Ninja"
+nav_order: 2
 ---
 
 # Élec

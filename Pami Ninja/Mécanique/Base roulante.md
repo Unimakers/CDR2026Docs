@@ -13,6 +13,8 @@ La base roulante du **PAMI Ninja** a été conçue pour offrir un compromis idé
 
 Initialement, nous avions envisagé un châssis monobloc en impression 3D. Cependant, pour faciliter l'intégration des composants et la maintenance sur le terrain, nous avons opté pour une structure modulaire en **MakerBeam**.
 
+<model-viewer alt="Premier prototype" src="./model/premier prototype.gltf.glb" ar style="width:80%; height:400px" shadow-intensity="1" camera-controls min-field-of-view="2deg"></model-viewer>
+
 ---
 
 ## 2. Structure et Châssis
