@@ -2,7 +2,7 @@
 title: "Base roulante"
 layout: technical
 nav_order: 2
-grand_parent: Pami ninja
+grand_parent: Pami_ninja
 parent: Meca
 ---
 
