@@ -1,10 +1,3 @@
----
-title: "Pami Ninja"
-nav_order: 1
-layout: technical
----
-
-# Pami Ninja
 # Présentation Technique : Le PAMI Ninja (Saison 2026)
 
 ## 1. Introduction
@@ -27,10 +20,12 @@ Le PAMI Ninja est spécialisé dans la manipulation de haute précision en espac
 Pour garantir son homologation, le PAMI Ninja respecte strictement les limites fixées par le règlement de la CDR 2026 :
 
 ### 3.1 Gabarit et Mobilité
-| État | Périmètre Max | Hauteur Max |
-| :--- | :--- | :--- |
-| **Au départ** | 600 mm | 150 mm |
-| **En match (déployé)** | 700 mm | 350 mm |
+* **Configuration au départ :**
+    * Périmètre max : **600 mm**
+    * Hauteur max : **150 mm**
+* **Configuration en match (déployé) :**
+    * Périmètre max : **700 mm**
+    * Hauteur max : **350 mm**
 
 ### 3.2 Caractéristiques Physiques
 * **Masse :** Limite stricte de **1,5 kg**.
