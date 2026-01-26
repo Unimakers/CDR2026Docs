@@ -3,7 +3,6 @@ title: "Base roulante"
 layout: technical
 grand_parent: Pami Ninja
 parent: Mécanique
-has_children: false
 ---
 
 # Section Mécanique : Base Roulante
@@ -12,6 +11,8 @@ has_children: false
 La base roulante du **PAMI Ninja** a été conçue pour offrir un compromis idéal entre **rigidité structurelle**, **précision de déplacement** et **accessibilité technique**. 
 
 Initialement, nous avions envisagé un châssis monobloc en impression 3D. Cependant, pour faciliter l'intégration des composants et la maintenance sur le terrain, nous avons opté pour une structure modulaire en **MakerBeam**.
+
+<model-viewer alt="Premier prototype" src="./model/premier prototype.gltf.glb" ar style="width:80%; height:400px" shadow-intensity="1" camera-controls min-field-of-view="2deg"></model-viewer>
 
 ---
 
@@ -23,7 +24,6 @@ Le squelette du robot repose sur des profilés en aluminium de $10 \times 10$ mm
 * **Robustesse :** L'aluminium offre une rigidité bien supérieure au plastique face aux collisions éventuelles.
 * **Maintenance :** Les faces en acrylique sont fixées via des **vis à tête carrée** glissées dans les rainures et maintenues par des écrous standards. 
 
-> [!TIP]
 > **Accessibilité :** Chaque face est démontable en dévissant simplement 8 écrous, permettant un accès complet à l'électronique interne en moins de 30 secondes sans fragiliser la structure porteuse.
 
 ---

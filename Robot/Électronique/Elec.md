@@ -1,6 +1,7 @@
 ---
 title: "L'électronique du robot principal"
 parent: Robot
+nav_order: 2
 has_children: true
 layout: technical
 ---

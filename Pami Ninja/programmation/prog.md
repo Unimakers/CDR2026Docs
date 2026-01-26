@@ -1,6 +1,7 @@
 ---
 title: "Programation"
+parent: "Pami Ninja"
 layout: technical
-parent: Pami Ninja
-has_children: true
 ---
+
+# prog

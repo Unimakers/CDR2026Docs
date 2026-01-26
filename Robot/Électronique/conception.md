@@ -1,6 +1,6 @@
 ---
 title: "La conception de la carte"
-parent: hidden
+parent: Elec
 layout: technical
 ---
 # La conception de la carte
