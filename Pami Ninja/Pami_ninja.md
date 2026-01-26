@@ -1,3 +1,10 @@
+---
+title: "Pami Ninja"
+layout: technical
+nav_order: 1
+has_children: true
+---
+
 # Présentation Technique : Le PAMI Ninja (Saison 2026)
 
 ## 1. Introduction
