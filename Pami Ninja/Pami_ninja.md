@@ -45,8 +45,8 @@ Pour garantir son homologation, le PAMI Ninja respecte strictement les limites f
 Le PAMI Ninja évolue dans un écosystème spécifique où chaque action est déterminante pour le score final.
 
 ### 4.1 Zone d'évolution
-* **Le Grenier :** Une surface de $450 \times 1800$ mm interdite aux robots principaux.
-* **Zone de départ :** Un carré de $20 \times 20$ cm situé en hauteur, imposant un design compact dès le déploiement.
+* **Le Grenier :** Une surface de 45 \ 180 cm interdite aux robots principaux.
+* **Zone de départ :** Un carré de 20 \ 20 cm situé en hauteur, imposant un design compact dès le déploiement.
 
 ### 4.2 Barème de points (Extraction & Remplissage)
 **Calcul des points :**

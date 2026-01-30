@@ -5,7 +5,7 @@ grand_parent: Pami Ninja
 parent: Mécanique
 ---
 
-# Section Mécanique : Base Roulante
+# Section mécanique : Base roulante
 
 ## 1. Philosophie de conception
 La base roulante du **PAMI Ninja** a été conçue pour offrir un compromis idéal entre **rigidité structurelle**, **précision de déplacement** et **accessibilité technique**. 
@@ -14,10 +14,12 @@ Initialement, nous avions envisagé un châssis monobloc en impression 3D. Cepen
 
 <model-viewer alt="premier prototype" src="../model/premier_prototype.glb" ar style="width:80%; height:400px" shadow-intensity="1" camera-controls min-field-of-view="2deg"></model-viewer>
 
+*Premier design de chassis*
+
 ---
 
 ## 2. Structure et Châssis
-Le squelette du robot repose sur des profilés en aluminium de $10 \times 10$ mm (MakerBeam).
+Le squelette du robot repose sur des profilés en aluminium de 10 \ 10 mm (MakerBeam).
 
 ### 2.1 Avantages du système MakerBeam
 * **Modularité :** Permet d'ajuster la position des capteurs et des supports sans réimprimer de pièces.
