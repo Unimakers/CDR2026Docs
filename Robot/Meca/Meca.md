@@ -3,10 +3,12 @@ title: "Mécanique"
 parent: "Robot"
 layout: technical
 ---
+## Le châssis 
 
+Pour la base du robot nous avons opté pour un châssis différentiel, c'est à dire un châssis à deux roux 
 ## Les déplacements 
 
-Nous avons opté pour un robot différentiel afin de simplifier au maximum que ce soit la mécanique du robot ou sa programmation, propulsé par 2 NEMA 17 reliés aux roues par une courroie permettant d'augmenter la puissance.
+Nous avons opté pour un robot différentiel afin de simplifier au maximum que ce soit la mécanique du robot ou sa programmation, propulsé par 2 NEMA 23 reliés directement aux roues, contrairement à l'an dernier où une courroie a été utilisé pour augmenter la puissance de propulsion.
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
 <img src="Images/déplacements.png" width=400>
