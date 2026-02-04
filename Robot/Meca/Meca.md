@@ -22,9 +22,9 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 
 
 
-## Les actionneurs
+## Les actionneurs 
 
-Pour accomplir au mieux les actions de jeu, le robot était équipé de deux actionneurs. 
+❌ **La suite de cette documentation n'est pas à jour.**
 
 ### Les planches
 
