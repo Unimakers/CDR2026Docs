@@ -9,9 +9,9 @@ Pour la base du robot, nous avons opté pour un châssis différentiel, c'est à
 
 ### La Compartimentation
 La structure extérieur du châssis étant complété, on a choisi de le compartiementer en plusieurs espaces :
-1.Le compartiment électrique
-2.Le compartiment Batterie
-3.Le compartiment des actionneurs
+-Le compartiment électrique
+-Le compartiment Batterie
+-Le compartiment des actionneurs
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
 <img src="Images/Compartiments.png" width=400>
 </div>
