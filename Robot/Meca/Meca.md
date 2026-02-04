@@ -9,7 +9,7 @@ Pour la base du robot, nous avons opté pour un châssis différentiel, c'est à
 
 ### La Compartimentation
 La structure extérieur du châssis étant complétée, nous avons choisi de le compartiementer en plusieurs espaces distincts :
-#### 📦 Compartiments
+Les Compartiments 📦 :
 
 - ![Électrique](https://img.shields.io/badge/Électrique-Jaune-yellow)
 - ![Batterie](https://img.shields.io/badge/Batterie-Vert-green)
@@ -18,8 +18,7 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 <img src="Images/Compartiments.png" width=450>
 </div>
 
-### Les composants
-Dans le châssis nous avons décidé d'utiliser des NEMA 23 comme moteur un par roue, 
+
 
 ## Les actionneurs
 
