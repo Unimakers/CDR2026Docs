@@ -19,8 +19,11 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
 <img src="Images/Compartiments.png" width=450>
 </div>
+---
 
+## Le support de batterie 🔌
 
+### Choix de la batterie ⚡
 
 ## Les actionneurs 
 
