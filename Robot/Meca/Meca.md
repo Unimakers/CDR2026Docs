@@ -25,16 +25,14 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 ### Choix de la batterie ⚡
 Nous avions d’abord prévu d’utiliser des cellules Lithium Fer Phosphate (LiFePO4) en pack maison, car elles sont réputées stables. Malheureusement, les cellules que nous avions en stock se sont révélées en très mauvais état : plusieurs étaient mortes, d’autres fortement gonflées, et l’ensemble présentait des risques réels. De plus, ces batterie demande de l'entretient pour rester stable et efficace.
 
-Face à ces soucis, nous avons abandonné complètement l’idée d'une batterie LiFePO4 brut. Nous avons opté pour une batterie Greenworks 24 V 3.5 Ah. Ce choix s’est imposé pour plusieurs raisons : la tension de 24 V convient parfaitement pour alimenter efficacement nos deux moteurs stepper, la batterie est déjà sécurisé d’origine et il ne demande quasiment aucun entretien.
+|Face à ces soucis, nous avons abandonné complètement l’idée d'une batterie LiFePO4 brut. Nous avons opté pour une batterie Greenworks 24 V 3.5 Ah. Ce choix s’est imposé pour plusieurs raisons : la tension de 24 V convient parfaitement pour alimenter efficacement nos deux moteurs stepper, la batterie est déjà sécurisé d’origine et il ne demande quasiment aucun entretien.
 De plus greenwork est l'une des seules marques à faire des batterie 24V dans le format pour des perceuses/visseuses électriques. Pour comparer les batteries Makita; DeWalt et Boch travaillent majoritairement en 18V.
 C’est un compromis pragmatique, économique et fiable.
-<div style="float: left; margin-left: 20px">
-    <img src="Images/Batterie_Greenworks.png" width="150">
-</div>
+| <img src="Images/Batterie_Greenworks.png" width="150"><br><sub>Batterie Greenworks 24V (3.5 Ah)</sub> |
 
 | Texte | Image |
 |-------|-------|
-| Face à ces soucis, nous avons complètement abandonné l’idée d'une batterie LiFePO4 brute. Nous avons opté pour une batterie Greenworks 24 V 3.5 Ah. Ce choix s’est imposé pour plusieurs raisons :<br>- la tension de 24 V convient parfaitement pour alimenter efficacement nos deux moteurs stepper ;<br>- la batterie est sécurisée d’origine ;<br>- elle ne demande quasiment aucun entretien.<br><br>De plus, Greenworks est l'une des rares marques à proposer des batteries 24 V dans un format compatible perceuses/visseuses. En comparaison, Makita, DeWalt ou Bosch travaillent majoritairement en 18 V.<br>C’est un compromis pragmatique, économique et fiable. | <img src="Images/Batterie_Greenworks.png" width="150"><br><sub>Batterie Greenworks 24V (3.5 Ah)</sub> |
+| Face à ces soucis, nous avons complètement abandonné l’idée d'une batterie LiFePO4 brute. Nous avons opté pour une batterie Greenworks 24 V 3.5 Ah. Ce choix s’est imposé pour plusieurs raisons :<br>- la tension de 24 V convient parfaitement pour alimenter efficacement nos deux moteurs stepper ;<br>- la batterie est sécurisée d’origine ;<br>- elle ne demande quasiment aucun entretien.<br><br>De plus, Greenworks est l'une des rares marques à proposer des batteries 24 V dans un format compatible perceuses/visseuses. En comparaison, Makita, DeWalt ou Bosch travaillent majoritairement en 18 V.<br>C’est un compromis pragmatique, économique et fiable.
 ## Les actionneurs 
 
 ❌ **La suite de cette documentation n'est pas à jour.**
