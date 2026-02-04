@@ -3,11 +3,12 @@ title: "Mécanique"
 parent: "Robot"
 layout: technical
 ---
-## Le châssis 
-### La Base
+## Le châssis 🛠️
+
+### La Base 🔧
 Pour la base du robot, nous avons opté pour un châssis différentiel, c'est à dire un châssis à deux roues motrices. Ce type de châssis est plus simple à mettre en œuvre et plus facile de prise en main, aussi bien pour nous que pour les étudiants de première année car il offre une excellente maniabilité, notamment pour réaliser des rotations sur place et des déplacements précis sans nécessiter une mécannique complexe.
 
-### La Compartimentation
+### La Compartimentation 🧩
 La structure extérieur du châssis étant complétée, nous avons choisi de le compartiementer en plusieurs espaces distincts :
 
 #### Compartiments 📦 :
