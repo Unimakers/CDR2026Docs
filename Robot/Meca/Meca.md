@@ -49,8 +49,9 @@ La batterie est également maintenue en position grâce à des aimants, fixés s
 La batterie Greenworks utilise un connecteur propriétaire qui n’est pas facilement remplaçable par des contacts standards. Nous avons cherché des lamelles à lame ressort compatibles, mais aucune solution fiable, robuste et disponible rapidement n’a été trouvée sur le marché.
 
 Nous avons donc utilisé des cosses électriques plates fixées directement sur le compartiment batterie. Cette solution fonctionne techniquement : la connexion tient bien en fonctionnement normal. Cependant, elle présente deux inconvénients pratiques importants : il faut maintenir les cosses à la main lors de l’insertion de la batterie, et il faut aussi les guider / maintenir lors du retrait. Cela rend l’opération peu rapide et pas très ergonomique. De ce faites le support de batterie intègre un système de maintient des cosses électriques en place. 
-
 <br>
+<img src="Images/Chageur_Batterie.png" width="250">
+➡️
 <img src="Images/Cale_cosses.png" width="250">
 <br>
 ## Les actionneurs 
