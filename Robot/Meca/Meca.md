@@ -41,9 +41,13 @@ Le support a été conçu en prenant comme référence le chargeur de la batteri
 Enfin, un système de pivotement d’environ 45° a été ajouté afin de permettre l’insertion de la batterie à la verticale et son extraction en biais, rendant la manipulation plus simple et ergonomique.
 La batterie est également maintenue en position grâce à des aimants, fixés sur des supports latéraux venant se fixer directement sur les profils MakerBeam du robot. Ce dispositif assure une tenue fiable tout en facilitant la mise en place et le retrait de la batterie.
 <br>
-<img src="Images/Support_latéraux.png" width="150">
+<img src="Images/Support_Latéraux.png" width="150">
 <img src="Images/Support_Batterie.png" width="150">
 <br>
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+<img src="Images/Pivot_Batterie.png" width=350>
+</div>
+
 
 ### Connecteur de la batterie 🔌
 La batterie Greenworks utilise un connecteur propriétaire qui n’est pas facilement remplaçable par des contacts standards. Nous avons cherché des lamelles à lame ressort compatibles, mais aucune solution fiable, robuste et disponible rapidement n’a été trouvée sur le marché.
