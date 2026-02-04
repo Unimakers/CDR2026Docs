@@ -13,7 +13,7 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 
 #### Compartiments 📦 :
 
-- ![Électrique](https://img.shields.io/badge/Électrique-Jaune-yellow)
+- ![Électronique](https://img.shields.io/badge/Électronique-Jaune-yellow)
 - ![Batterie](https://img.shields.io/badge/Batterie-Vert-green)
 - ![Actionneurs](https://img.shields.io/badge/Actionneurs-Bleu-blue)
 <div style="display: flex; justify-content: center; margin-top: 20px;">
