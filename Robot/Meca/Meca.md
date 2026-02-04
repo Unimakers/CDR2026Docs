@@ -29,7 +29,7 @@ Face à ces soucis, nous avons abandonné complètement l’idée d'une batterie
 De plus greenwork est l'une des seules marques à faire des batterie 24V dans le format pour des perceuses/visseuses électriques. Pour comparer les batteries Makita; DeWalt et Boch travaillent majoritairement en 18V.
 C’est un compromis pragmatique, économique et fiable.
 <br>
-<img src="Images/Batterie_Greenworks.png" width="200">
+<img src="Images/Batterie_Greenworks.png" width="300">
 <br>
 <sub>Batterie Greenworks 24V (3.5 Ah)</sub> 
 
@@ -41,17 +41,18 @@ Le support a été conçu en prenant comme référence le chargeur de la batteri
 Enfin, un système de pivotement d’environ 45° a été ajouté afin de permettre l’insertion de la batterie à la verticale et son extraction en biais, rendant la manipulation plus simple et ergonomique.
 La batterie est également maintenue en position grâce à des aimants, fixés sur des supports latéraux venant se fixer directement sur les profils MakerBeam du robot. Ce dispositif assure une tenue fiable tout en facilitant la mise en place et le retrait de la batterie.
 <br>
-<img src="Images/Support_Latéraux.png" width="150">
-<img src="Images/Support_Batterie.png" width="150">
-<img src="Images/Pivot_Batterie.png" width="250">
+<img src="Images/Support_Latéraux.png" width="250">
+<img src="Images/Support_Batterie.png" width="250">
 <br>
-
 
 ### Connecteur de la batterie 🔌
 La batterie Greenworks utilise un connecteur propriétaire qui n’est pas facilement remplaçable par des contacts standards. Nous avons cherché des lamelles à lame ressort compatibles, mais aucune solution fiable, robuste et disponible rapidement n’a été trouvée sur le marché.
 
 Nous avons donc utilisé des cosses électriques plates fixées directement sur le compartiment batterie. Cette solution fonctionne techniquement : la connexion tient bien en fonctionnement normal. Cependant, elle présente deux inconvénients pratiques importants : il faut maintenir les cosses à la main lors de l’insertion de la batterie, et il faut aussi les guider / maintenir lors du retrait. Cela rend l’opération peu rapide et pas très ergonomique. De ce faites le support de batterie intègre un système de maintient des cosses électriques en place. 
 
+<br>
+<img src="Images/Cale_cosses.png" width="250">
+<br>
 ## Les actionneurs 
 
 ❌ **La suite de cette documentation n'est pas à jour.**
