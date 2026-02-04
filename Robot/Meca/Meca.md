@@ -8,13 +8,14 @@ layout: technical
 Pour la base du robot, nous avons opté pour un châssis différentiel, c'est à dire un châssis à deux roues motrices. Ce type de châssis est plus simple à mettre en œuvre et plus facile de prise en main, aussi bien pour nous que pour les étudiants de première année car il offre une excellente maniabilité, notamment pour réaliser des rotations sur place et des déplacements précis sans nécessiter une mécannique complexe.
 
 ### La Compartimentation
-La structure extérieur du châssis étant complété, on a choisi de le compartiementer en plusieurs espaces :
+La structure extérieur du châssis étant complétée, nous avons choisi de le compartiementer en plusieurs espaces distincts :
+#### 📦 Compartiments
 
--Le compartiment électrique
--Le compartiment Batterie
--Le compartiment des actionneurs
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-<img src="Images/Compartiments.png" width=400>
+- ![Électrique](https://img.shields.io/badge/Électrique-Jaune-yellow)
+- ![Batterie](https://img.shields.io/badge/Batterie-Vert-green)
+- ![Actionneurs](https://img.shields.io/badge/Actionneurs-Bleu-blue)
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+<img src="Images/Compartiments.png" width=450>
 </div>
 ## Les  
 
