@@ -29,7 +29,7 @@ Face à ces soucis, nous avons abandonné complètement l’idée d'une batterie
 De plus greenwork est l'une des seules marques à faire des batterie 24V dans le format pour des perceuses/visseuses électriques. Pour comparer les batteries Makita; DeWalt et Boch sont de 18V par exemple.
 C’est un compromis pragmatique, économique et fiable.
 <div style="display: flex; justify-content: center; margin-top: 20px;">
-<img src="Images/Batterie_Greenworks.jpg" width=350>
+<img src="Images/Batterie_Greenworks.jpg" width=150>
 </div>
 
 ## Les actionneurs 
