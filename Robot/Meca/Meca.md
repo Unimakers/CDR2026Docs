@@ -43,10 +43,8 @@ La batterie est également maintenue en position grâce à des aimants, fixés s
 <br>
 <img src="Images/Support_Latéraux.png" width="150">
 <img src="Images/Support_Batterie.png" width="150">
+<img src="Images/Pivot_Batterie.png" width="250">
 <br>
-<div style="display: flex; justify-content: center; margin-top: 20px;">
-<img src="Images/Pivot_Batterie.png" width=350>
-</div>
 
 
 ### Connecteur de la batterie 🔌
