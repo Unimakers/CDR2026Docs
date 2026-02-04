@@ -33,7 +33,7 @@ C’est un compromis pragmatique, économique et fiable.
 <br>
 <sub>Batterie Greenworks 24V (3.5 Ah)</sub> 
 
-### Le support de batterie
+### Le support de batterie 🧰
 
 ## Les actionneurs 
 
