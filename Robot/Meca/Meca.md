@@ -20,7 +20,7 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 
 ### Les composants
 Dans le châssis nous avons décidé d'utiliser des NEMA 23 comme moteur un par roue, 
----
+
 ## Les actionneurs
 
 Pour accomplir au mieux les actions de jeu, le robot était équipé de deux actionneurs. 
