@@ -9,7 +9,8 @@ Pour la base du robot, nous avons opté pour un châssis différentiel, c'est à
 
 ### La Compartimentation
 La structure extérieur du châssis étant complétée, nous avons choisi de le compartiementer en plusieurs espaces distincts :
-Les Compartiments 📦 :
+
+#### Compartiments 📦 :
 
 - ![Électrique](https://img.shields.io/badge/Électrique-Jaune-yellow)
 - ![Batterie](https://img.shields.io/badge/Batterie-Vert-green)
