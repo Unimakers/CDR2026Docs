@@ -12,12 +12,15 @@ La structure extérieur du châssis étant complété, on a choisi de le compart
 1.Le compartiment électrique
 2.Le compartiment Batterie
 3.Le compartiment des actionneurs
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+<img src="Images/déplacements.png" width=400>
+</div>
 ## Les  
 
 Nous avons opté pour un robot différentiel afin de simplifier au maximum que ce soit la mécanique du robot ou sa programmation, propulsé par 2 NEMA 23 reliés directement aux roues, contrairement à l'an dernier où une courroie a été utilisé pour augmenter la puissance de propulsion.
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-<img src="Images/déplacements.png" width=400>
+<img src="Images/compartiments.png" width=400>
 </div>
 
 ---
