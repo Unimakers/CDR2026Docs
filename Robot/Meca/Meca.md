@@ -19,11 +19,15 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
 <img src="Images/Compartiments.png" width=450>
 </div>
----
 
 ## Le support de batterie 🔌
 
 ### Choix de la batterie ⚡
+Nous avions d’abord prévu d’utiliser des cellules Lithium Fer Phosphate (LiFePO4) en pack maison, car elles sont réputées stables. Malheureusement, les cellules que nous avions en stock se sont révélées en très mauvais état : plusieurs étaient mortes, d’autres fortement gonflées, et l’ensemble présentait des risques réels. De plus, ces batterie demande de l'entretient pour rester stable et efficace.
+
+Face à ces soucis, nous avons abandonné complètement l’idée d'une batterie LiFePO4 brut. Nous avons opté pour une batterie Greenworks 24 V 3.5 Ah. Ce choix s’est imposé pour plusieurs raisons : la tension de 24 V convient parfaitement pour alimenter efficacement nos deux moteurs stepper; le pack est déjà sécurisé d’origine ; et il ne demande quasiment aucun entretien.
+De plus greenwork est l'une des seules marques à faire des batterie 24V dans le format pour des perceuses/viseuses électriques. 
+C’est un compromis pragmatique, économique et fiable.
 
 ## Les actionneurs 
 
