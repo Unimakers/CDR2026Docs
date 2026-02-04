@@ -34,11 +34,17 @@ C’est un compromis pragmatique, économique et fiable.
 <sub>Batterie Greenworks 24V (3.5 Ah)</sub> 
 
 ### Le support de batterie 🔧
+La batterie, étant déjà conditionnée, nécessite un support pour être correctement maintenue et connectée à la carte électronique du robot.
+
+Le support a été conçu en prenant comme référence le chargeur de la batterie afin d'assurer un alignement précis. Un rail guide les ports de connexion, tandis qu’une cale rétractable se bloque dans une encoche prévue à cet effet. Cette conception garantit que la batterie reste solidement en place, même si le robot est retourné, et qu’elle ne peut être retirée que lorsque la cale est rétractée.
+
+Enfin, un système de pivotement d’environ 45° a été ajouté afin de permettre l’insertion de la batterie à la verticale et son extraction en biais, rendant la manipulation plus simple et ergonomique.
+La batterie est également maintenue en position grâce à des aimants, fixés sur des supports latéraux venant se fixer directement sur les profils MakerBeam du robot. Ce dispositif assure une tenue fiable tout en facilitant la mise en place et le retrait de la batterie.
 
 ### Connecteur de la batterie 🔌
 La batterie Greenworks utilise un connecteur propriétaire qui n’est pas facilement remplaçable par des contacts standards. Nous avons cherché des lamelles à lame ressort compatibles, mais aucune solution fiable, robuste et disponible rapidement n’a été trouvée sur le marché.
 
-Nous avons donc utilisé des cosses électriques plates fixées directement sur le compartiment batterie. Cette solution fonctionne techniquement : la connexion tient bien en fonctionnement normal. Cependant, elle présente deux inconvénients pratiques importants : il faut maintenir les cosses à la main lors de l’insertion de la batterie, et il faut aussi les guider / maintenir lors du retrait. Cela rend l’opération peu rapide et pas très ergonomique. De ce faites le support de batterie intègre un système de pivotement permettant de faciliter l’extraction de la batterie, assure son maintien sécurisé en position et inclut une cale dédiée pour maintenir les cosses électriques en place. 
+Nous avons donc utilisé des cosses électriques plates fixées directement sur le compartiment batterie. Cette solution fonctionne techniquement : la connexion tient bien en fonctionnement normal. Cependant, elle présente deux inconvénients pratiques importants : il faut maintenir les cosses à la main lors de l’insertion de la batterie, et il faut aussi les guider / maintenir lors du retrait. Cela rend l’opération peu rapide et pas très ergonomique. De ce faites le support de batterie intègre un système de maintient des cosses électriques en place. 
 
 ## Les actionneurs 
 
