@@ -3,9 +3,9 @@ title: "Mécanique"
 parent: "Robot"
 layout: technical
 ---
-## Le châssis 🛠️
+## Le châssis 🧰
 
-### La Base 🔧
+### La Base 🛠️
 Pour la base du robot, nous avons opté pour un châssis différentiel, c'est à dire un châssis à deux roues motrices. Ce type de châssis est plus simple à mettre en œuvre et plus facile de prise en main, aussi bien pour nous que pour les étudiants de première année car il offre une excellente maniabilité, notamment pour réaliser des rotations sur place et des déplacements précis sans nécessiter une mécannique complexe.
 
 ### La Compartimentation 🧩
@@ -33,7 +33,9 @@ C’est un compromis pragmatique, économique et fiable.
 <br>
 <sub>Batterie Greenworks 24V (3.5 Ah)</sub> 
 
-### Le support de batterie 🧰
+### Le support de batterie 🔧
+
+
 
 ## Les actionneurs 
 
