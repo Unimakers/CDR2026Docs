@@ -17,14 +17,9 @@ La structure extérieur du châssis étant complétée, nous avons choisi de le 
 <div style="display: flex; justify-content: center; margin-top: 20px;">
 <img src="Images/Compartiments.png" width=450>
 </div>
-## Les  
 
-Nous avons opté pour un robot différentiel afin de simplifier au maximum que ce soit la mécanique du robot ou sa programmation, propulsé par 2 NEMA 23 reliés directement aux roues, contrairement à l'an dernier où une courroie a été utilisé pour augmenter la puissance de propulsion.
-
-<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-<img src="Images/compartiments.png" width=400>
-</div>
-
+### Les composants
+Dans le châssis nous avons décidé d'utiliser des NEMA 23 comme moteur un par roue, 
 ---
 ## Les actionneurs
 
