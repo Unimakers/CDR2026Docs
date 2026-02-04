@@ -13,7 +13,7 @@ La structure extérieur du châssis étant complété, on a choisi de le compart
 2.Le compartiment Batterie
 3.Le compartiment des actionneurs
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-<img src="Images/compartiments.png" width=400>
+<img src="Images/Compartiments.png" width=400>
 </div>
 ## Les  
 
