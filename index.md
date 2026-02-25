@@ -62,10 +62,10 @@ Avant de pouvoir participer à son premier match, le robot ainsi que les PAMIs d
 
 À savoir que toute modification effectuée une fois l'homologation passée doit être signalée au référé, suivie d'une nouvelle validation du robot.
 
-Pour notre première participation nous avons réussi a être homologué dès le premier soir nous permettant de participer à tout nos matchs et de finir 59e au classement de la [CDR 2025] .
+Lors de cette deuxième participation nous avons réussi a être homologué dès le premier soir nous permettant de participer à tout nos matchs et de finir 59e au classement de la [CDR 2026] .
 
 [UniWIP]: https://github.com/orgs/Unimakers/teams/uniwip
-[CDR 2025]: https://www.coupederobotique.fr/edition-2025/
+[CDR 2026]: https://www.coupederobotique.fr/edition-2026/
 [Just The Docs]: https://just-the-docs.com/
 [Jekyll]: https://jekyllrb.com
 
