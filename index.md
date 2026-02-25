@@ -47,6 +47,9 @@ Les actions sont strictement encadrées : déplacement, collecte, positionnement
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
 <img src="tablezone.png" width=800>
 </div>
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+<img src="legend_zone.png" width=800>
+</div>
 
 La moindre erreur peut entraîner des pénalités, voire une disqualification. C’est un défi important qui repose sur notre esprit d’équipe et notre ingéniosité.
 
