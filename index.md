@@ -10,11 +10,11 @@ nav_order: 0
 </div>
 
 ## Un événement unique
-La **Coupe de France de robotique** (ou CRD) est un événement qui réunit chaque année des centaines d'équipes venues de toute la France pour faire concourir leurs robots passifs qu'elles ont passé un an à créer ou à adapter afin de répondre le mieux à un règlement qui évolue chaque année autour d'un thème, cette année le thème était **"Winter is comming"** le but est de faire des réserves pour l'hiver.
+La **Coupe de France de robotique** (ou CRD) est un événement qui réunit chaque année des centaines d'équipes venues de toute la France pour faire concourir leurs robots passifs qu'elles ont passé un an à créer ou à adapter afin de répondre le mieux à un règlement qui évolue chaque année autour d'un thème, cette année le thème était **"Winter is comming"** le but est de faire des réserves pour l'hiver grace a nos robots écureuils.
 
 Ces robots doivent être entièrement **autonomes** et capables de réaliser différentes actions sur une table de 3 mètres par 2 en un temps limité, généralement 100 secondes. Le but est de marquer le plus de points possible en accomplissants différents objectifs. 
 
-Chaque année nous avons donc droit à un nouveau visuel de la table ainsi qu'à de nouveau éléments de jeu cette année c'était **des planches jaune et bleu**, une petite **scène** pour les **PAMI** ainsi qu'une **réserve** pour le **PAMI Ninja** (voir la doc) 
+Chaque année nous avons donc droit à un nouveau visuel de la table ainsi qu'à de nouveau éléments de jeu cette année c'était **des planches jaune et bleu** pour symboliser les **réserves**, un **nid** pour le **robot principal**, une petite **scène** pour les **PAMI** ainsi qu'un **grenier** pour le **PAMI Ninja** (voir la doc) 
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
 <img src="table.png" width=800>
