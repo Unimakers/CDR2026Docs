@@ -18,8 +18,8 @@ Le système se compose d'un bras à segment, permettant une grande liberté de m
 
 Le Bras : Articulé via un servomoteur , permettant d'ajuster l'inclinaison pour atteindre les caisses.
 
-L'Effecteur (La tête) : Une pièce imprimée en forme de T supporte les deux ventouses, elle est creusée par un scillion amenant l'air à ces dernières.
+L'Effecteur (La tête) : Une pièce imprimée en forme de L supporte une ventouses, elle est creusée par un scillion amenant l'air à ces dernières.
 
-Double Ventouse : L'utilisation de deux points de contact permet de stabiliser la caisse et d'éviter qu'elle ne pivote sur elle-même pendant le transport.
+Ventouse : L'utilisation d'un seule ventouse permet de prendre la caisse.
 
-Le bras vient acceuillir en son creux deux tuyaux reliants les ventouses à la pompe. Les tuyaux sont donc protégés des élements extérieurs pour éviter qu'ils se décrochent. 
+Le bras vient acceuillir en son creux un tuyau reliant la ventouse à la pompe. Le tuyau esr donc protégé des élements extérieurs pour éviter qu'il se décroche. 
