@@ -58,7 +58,7 @@ Le PAMI Ninja évolue dans un écosystème spécifique où chaque action est dé
 ---
 
 ## 5. Architecture de l'Unité
-Le robot est décomposé en trois modules principaux détaillés dans cette documentation :
+Le PAMI Ninja est décomposé en trois modules principaux détaillés dans cette documentation :
 1.  **Mécanique :** Châssis modulaire MakerBeam et système de ventouse.
 2.  **Électronique :** Gestion de la puissance et capteurs de proximité.
 3.  **Programmation :** Algorithmes de navigation et logique d'état.
