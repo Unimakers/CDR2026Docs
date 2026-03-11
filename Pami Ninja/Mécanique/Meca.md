@@ -12,5 +12,5 @@ Le PAMI Ninja est constitué de deux sous-ensembles mécaniques principaux. Le p
 
 Voici à quoi ressemble l'ensemble du PAMI Ninja:
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-<img src="tablezone.png" width=800>
+<img src="pami-ninja.PNG" width=800>
 </div>
