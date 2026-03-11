@@ -16,6 +16,8 @@ Initialement, nous avions envisagé un châssis monobloc en impression 3D. Cepen
 
 *Premier design de chassis*
 
+<model-viewer alt="base en MakerBeam" src="../model/makerbeam.gltf" ar style="width:80%; height:400px" shadow-intensity="1" camera-controls min-field-of-view="2deg"></model-viewer>
+
 ---
 
 ## 2. Structure et Châssis
