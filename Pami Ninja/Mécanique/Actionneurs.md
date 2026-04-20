@@ -16,11 +16,11 @@ L'actionneur principal du *PAMI* est conçu pour la manipulation rapide et sécu
 
 Le système se compose d'un bras à segment, permettant une grande liberté de mouvement tout en restant dans le périmètre de départ du PAMI (150x150mm).
 
-Le Bras : Articulé via un servomoteur, permettant d'ajuster l'inclinaison pour atteindre les caisses.
+**Le Bras :** Articulé via un servomoteur, permettant d'ajuster l'inclinaison pour atteindre les caisses.
 
-La tête : Une pièce imprimée en 3D permettant de supporter une ventouse, elle est creusée par un scillion amenant l'air à cette dernière. L'étanchéité interne est assurée par une épaisseur de paroi augmentée lors de l'impression.
+**La tête :** Une pièce imprimée en 3D permettant de supporter une ventouse, elle est creusée par un scillion amenant l'air à cette dernière. L'étanchéité interne est assurée par une épaisseur de paroi augmentée lors de l'impression.
 
-La ventouse : L'utilisation d'un seule ventouse souple permet de prendre la caisse en s'adaptant aux éventuels défauts de parallélisme entre le robot et la cible.
+**La ventouse :** L'utilisation d'un seule ventouse souple permet de prendre la caisse en s'adaptant aux éventuels défauts de parallélisme entre le robot et la cible.
 
 Le bras vient acceuillir en son creux un tuyau reliant la ventouse à la pompe. Le tuyau esr donc protégé des élements extérieurs pour éviter qu'il se décroche ou qu'il ne s'emmêle dans la structure en profilés lors des mouvements.
 
