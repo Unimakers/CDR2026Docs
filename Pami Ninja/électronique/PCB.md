@@ -2,6 +2,6 @@
 title: "PCB"
 layout: technical
 grand_parent: Pami Ninja
-parent: électronique
+parent: Électronique
 has_children: false
 ---
