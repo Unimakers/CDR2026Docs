@@ -66,21 +66,27 @@ C++
 #define DEG_EN_PAS(deg)   ((int)((float)(deg) / 360.0f * (float)M_PI * WHEELBASE_CM / WHEEL_CIRC_CM * STEPS_PER_REV))
 ```
 
-Fonctions de Contrôle
-1. Pompe et Électrovanne (PCF8574)
-Le PCF8574 est en open-drain : écrire 0 = actif (LOW), écrire 1 = inactif.
-void pompeOn();
-void pompeOff();
-void evOn();
-void evOff();
-2. Servo (PCA9685)
-#define SERVO_J13_CH 0
-#define SERVO_MIN 150
-#define SERVO_MAX 500
-void setServoAngle(int angle); // Angle entre 0 et 180°
-void updateServoFromSwitch(); // Position selon l'interrupteur
-3. Mouvements de Base
-La fonction rotate() intègre une rampe d’accélération / décélération pour plus de fluidité et de précision.
+# Fonctions de Contrôle
+
+1. **Pompe et Électrovanne** (PCF8574)
+
+    Le PCF8574 est en open-drain : écrire 0 = actif (LOW), écrire 1 = inactif.
+    void pompeOn();
+    void pompeOff();
+    void evOn();
+    void evOff();
+
+2. **Servo** (PCA9685)
+
+    #define SERVO_J13_CH 0
+    #define SERVO_MIN 150
+    #define SERVO_MAX 500
+    void setServoAngle(int angle); // Angle entre 0 et 180°
+    updateServoFromSwitch(); // Position selon l'interrupteur
+
+3. **Mouvements de Base**
+
+La fonction **rotate()** intègre une rampe d’accélération / décélération pour plus de fluidité et de précision.
 
 * avancer(steps) / avancerCm(float cm)
 
@@ -91,7 +97,7 @@ La fonction rotate() intègre une rampe d’accélération / décélération pou
 * tournerGauche(steps) / pivoterGauche(float deg)
 
 * Stratégies
-  Deux stratégies miroirs sont implémentées :
+  Deux stratégies miroirs sont implémentées en fonction du coté sur lequel on était :
 
   * strategieJaune()
 
@@ -108,7 +114,8 @@ La fonction rotate() intègre une rampe d’accélération / décélération pou
 
 * Boucle infinie d’oscillation du servo en fin de match (effet visuel / signal)
 
-Fonction setup()
+
+## Fonction setup()
 
 * Initialisation de la communication I2C (Wire.begin(5, 6))
 
@@ -122,7 +129,8 @@ Fonction setup()
 
 * Initialisation du PCF8574 (toutes sorties relâchées)
 
-Fonction loop()
+
+## Fonction loop()
 Fonctionnement classique d’un robot de compétition :
 
 1. Mise à jour continue de la position du servo selon l’interrupteur
