@@ -6,4 +6,9 @@ nav_order: 2
 has_children: true
 ---
 
-# Élec
+# Électronique
+
+La partie électronique est basée sur la carte que nous avons dû concevoir pour faire fonctionner le PAMI Ninja. Cette partie est décomposée en deux éléments :
+
+- Le schéma électrique réalisé sur le logiciel KiCad.
+- Le PCB (circuit imprimé) qui permet le fonctionnement de la carte.
