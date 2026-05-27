@@ -14,6 +14,12 @@ Avant de dessiner physiquement la carte (le PCB), on a réalisé le **schématiq
 
 Pour garantir la fiabilité du système, on s'est appuyé sur la documentation des anciennes cartes de l'association ainsi que sur l'accompagnement des professeurs du MakerSpace.
 
+Voici donc le dit schématique:
+
+<kicanvas-embed controls="full">
+<kicanvas-source src="../pcb&schéma/carte_pami_ninja.kicad_sch"></kicanvas-source>
+</kicanvas-embed>
+
 ## 2. Architecture du circuit 
 
 Pour rendre le schéma plus clair et modulaire, on a fait le choix de le découper en plusieurs blocs fonctionnels. Chacun a un rôle précis dans le fonctionnement du PAMI Ninja :
