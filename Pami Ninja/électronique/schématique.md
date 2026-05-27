@@ -17,7 +17,7 @@ Pour garantir la fiabilité du système, on s'est appuyé sur la documentation d
 Voici donc le dit schématique:
 
 <kicanvas-embed controls="full">
-<kicanvas-source src="../pcb&schéma/carte_pami_ninja.kicad_sch"></kicanvas-source>
+<kicanvas-source src="../électronique/pcb&schéma/carte_pami_ninja.kicad_sch"></kicanvas-source>
 </kicanvas-embed>
 
 ## 2. Architecture du circuit 
