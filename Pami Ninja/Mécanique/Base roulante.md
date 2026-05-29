@@ -41,7 +41,7 @@ La base utilise une configuration à deux roues motrices classiques avec des mot
 | :--- | :--- |
 | **Moteurs** | Moteurs pas-à-pas (Stepper) pour une précision millimétrée |
 | **Transmission** | Montage en **prise directe** sur l'axe moteur (évite le backlash) |
-| **Type de roues** | Roues classiques à haute adhérence |
+| **Type de roues** | Roues classiques en silicone à haute adhérence |
 | **Support** | Fixation directe sur la plaque inférieure du châssis |
 
 
